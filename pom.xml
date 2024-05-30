@@ -14,7 +14,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <aspectj.version>1.9.20.1</aspectj.version>
     <serenirt.cucumber.version>1.9.31</serenirt.cucumber.version>
-    <encoding>UTF-8</encoding>
     <parallel.tests>4</parallel.tests>
   </properties>
 
@@ -150,25 +149,11 @@
       <version>2.2</version>
       <scope>test</scope>
     </dependency>
-    <!-- Test Framework Dependencies -->
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>4.21.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>7.10.2</version>
-      <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
     <dependency>
@@ -188,6 +173,11 @@
       <version>2.0.13</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+      <version>0.10.2</version> <!-- Update the version to the latest -->
+    </dependency>
     <!-- Reporting dependencies -->
     <dependency>
       <groupId>io.qameta.allure</groupId>
@@ -200,24 +190,6 @@
       <groupId>io.qameta.allure</groupId>
       <artifactId>allure-assertj</artifactId>
       <version>2.27.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>7.10.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>RELEASE</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>RELEASE</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>
